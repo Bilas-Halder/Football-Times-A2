@@ -11,6 +11,7 @@ body{
 header{
     background-color: #2D25A0;
     width: 100%;
+    margin: auto;
     height: 667px;
 }
 
@@ -68,12 +69,15 @@ img{
 
 /* grid section */
 
-.grid-sec{
-    width: auto;
-    padding: 80px 180px;
 
+.grid-sec{
+    width: 1050px;
+    margin: 70px auto;
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    column-gap: 30px;
+    row-gap: 27px;
+    justify-content: center;
 }
 .players{
     width: 300px;
@@ -94,4 +98,63 @@ img{
 .players p{
     color: gray;
     margin-top: 8px;
+}
+
+
+/* Highlights */
+
+.highlights{
+    display: flex;
+    width: 1105px;
+    margin: auto;
+    margin-top: 165px;
+    margin-bottom: 158px;
+}
+.high-text{
+    width: 466px;
+    height: 309px;
+    align-self: center;
+    margin-right: 69px;
+}
+.high-text h2{
+    font-size: 45px;
+    margin: 0px;
+    line-height: 55px;
+}
+.high-text p{
+    color: gray;
+    margin-bottom: 30px;
+}
+.high-image{
+    width: 567px;
+    height: 427px;
+}
+.high-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+/* footer */
+footer{
+    display: flex;
+    flex-direction: column;
+    width: 484px;
+    margin: auto;
+    margin-bottom: 63px;
+    align-items: center;
+}
+.foot-img{
+    width: 500px;
+}
+.foot-img img{
+    width: 484px;
+    height: 110px;
+}
+.icons a{
+    background-color: rgb(204, 204, 204);
+    padding: 2px 5px;
+    border-radius: 50%;
+    color: gray;
+    margin: 0px 0px 10px 10px;
 }
