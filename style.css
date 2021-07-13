@@ -1,0 +1,97 @@
+/* Adding Poppins font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+header{
+    background-color: #2D25A0;
+    width: 100%;
+    height: 667px;
+}
+
+.flexible{
+    width: 50%;
+    height: auto;
+}
+.text{
+    width: 485px;
+    height: auto;
+}
+.text h1{
+    font-size: 60px;
+    color: white;
+    line-height: 75px;
+    margin-bottom: 25px;
+}
+img{
+    width: 556px;
+    height: 438px;
+}
+.title{
+    position: absolute;
+    top: 207px;
+    left: 156px;
+}
+
+.btn{
+    color: white;
+    background-color: #E02C6D;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 0px;
+    padding: 10px 25px;
+}
+.btn i{
+    margin-left: 10px;
+    transition: 0.7s ease;
+}
+.btn:hover{
+    background-color: #ff0c65;
+}
+
+.live:hover i{
+    transform: rotate(180deg);
+}
+
+
+.banner-img{
+    width: auto;
+    position: absolute;
+    top: 153px;
+    left: 660px;
+}
+
+/* grid section */
+
+.grid-sec{
+    width: auto;
+    padding: 80px 180px;
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.players{
+    width: 300px;
+    height: 444px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px gray;
+}
+.player-img{
+    width: 300px;
+    height: 256px;
+    border-radius: 5px;
+}
+.players h2{
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+.players p{
+    color: gray;
+    margin-top: 8px;
+}
