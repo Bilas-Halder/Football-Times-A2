@@ -11,8 +11,17 @@ body{
 header{
     background-color: #2D25A0;
     width: 100%;
-    margin: auto;
-    height: 667px;
+    margin: 0px auto;
+    height: 677px;
+    position: relative;
+    top: -40px;
+    left: 0px;
+}
+.banner{
+    /* background-color: #2D25A0; */
+    margin: 0px auto;
+    width: 1100px;
+    height: 677px;
 }
 
 .flexible{
@@ -34,9 +43,9 @@ img{
     height: 438px;
 }
 .title{
-    position: absolute;
-    top: 207px;
-    left: 156px;
+    position: relative;
+    top: 247px;
+    left: 32px;
 }
 
 .btn{
@@ -59,12 +68,12 @@ img{
     transform: rotate(180deg);
 }
 
-
+/* -------------------------------- */
 .banner-img{
-    width: auto;
-    position: absolute;
-    top: 153px;
-    left: 660px;
+    width: 600px;
+    position: relative;
+    top: -120px;
+    left: 535px;
 }
 
 /* grid section */
@@ -134,6 +143,60 @@ img{
     height: 100%;
     border-radius: 5px;
 }
+
+/* Upcoming Matches */
+.matches{
+    width: 1050px;
+    display: flex;
+    margin: 0px auto;
+    justify-content: space-between;
+}
+.match{
+    width: 280px;
+    height: 235px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px grey;
+    margin-bottom: 158px;
+}
+.match-img{
+    width: 280px;
+    height: 170px;
+    border-radius: 5px;
+}
+.match h2{
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.match h2 span{
+    color: #ff2f2f;
+}
+.match p{
+    display: none;
+    color: gray;
+    margin: 0px 0px 0px 0px;
+}
+.match p a{
+    text-decoration: none;
+    color: #1c1cd1;
+}
+.match p a span{
+    margin-left: 80px;
+}
+
+/* Hover Effect */
+.match:hover{
+    height: 350px;
+    margin-top: -15px;
+    margin-bottom: 43px;
+    box-shadow: 0px 0px 15px grey;
+}
+.match:hover p{
+    display: block;
+}
+
+
+
 
 /* footer */
 footer{
