@@ -32,7 +32,92 @@
         width: 268px;
         height: 211.12px;
     }
-    
 
+
+    /* Grid Section */
+
+    .grid-sec{
+        display: none;
+        width: 330px;
+        margin: 7px auto 0px auto;
+        grid-template-columns: repeat(1,1fr);
+        row-gap: 24px;
+    }
+
+    /* Highlight Section */
     
+    .highlights{
+        flex-direction: column;
+        width: 100%;
+        margin-top: 60px;
+        margin-bottom: 158px;
+    }
+    .high-text{
+        width: 330px;
+        height: 285px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .high-text h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .high-image{
+        width: 328px;
+        height: 248px;
+        margin: 29px auto 0px auto;
+        
+    }
+
+
+    /* upcoming matches section  */
+    .upcoming-matches{
+        width: 315px;
+        margin: 0px auto;
+        margin-bottom: 43px;
+    }
+
+    .upcoming{
+        width: 280px;
+        font-size: 26px;
+        margin-left: 0px;
+        margin-right: 0px;
+
+    }
+    .matches{
+        width: 280px;
+        flex-direction: column;
+        margin-left: 0px;
+        margin-right: 0px;
+
+    }
+    .match{
+        margin-bottom: 30px;
+
+    }
+    /* Hover Effect */
+    .match:hover{
+        margin-top: -5px;
+        margin-bottom: 35px;
+
+    }
+
+
+    /* Footer Section */
+
+    footer{
+        width: 247px;
+        margin-bottom: 63px;
+    }
+    .foot-img{
+        width: 247px;
+    }
+    .foot-img img{
+        width: 247px;
+        height: 63px;
+    }
+
+
 }
+
+
