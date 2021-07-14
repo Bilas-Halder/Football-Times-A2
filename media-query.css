@@ -148,7 +148,9 @@
     }
     .news{
         margin-bottom: 30px;
-
+    }
+    .news:hover{
+        margin-bottom: 33px;
     }
     
     /* ------------------------ */
